@@ -41,14 +41,21 @@ public class test {
 //    System.out.println(Integer.valueOf(aString));
 //    int i = 1000000000;
 //    System.out.println(Integer.valueOf(aString));
-    commodity c1 = new commodity(2, 1, 5);
-    Map<commodity, commodity> mylist = new TreeMap<commodity, commodity>();
-    mylist.put(c1, c1);
-    commodity c2 = new commodity(2, 1, 3);
-    System.out.println(mylist.get(c2));
-    String aString = "cs";
-    System.out.println(aString.substring(0, 1));
+//    commodity c1 = new commodity(2, 1, 5);
+//    Map<commodity, commodity> mylist = new TreeMap<commodity, commodity>();
+//    mylist.put(c1, c1);
+//    commodity c2 = new commodity(2, 1, 3);
+//    System.out.println(mylist.get(c2));
+//    String aString = "cs";
+//    System.out.println(aString.substring(0, 1));
+    int[] isroot = new int[20];
+    for(int i = 0 ; i < 20 ; i++)
+    {
+      System.out.println(isroot[i]);
+    }
     
+    char a = '"';
+    System.out.println(a);
   }
   
 

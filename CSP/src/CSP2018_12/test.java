@@ -7,6 +7,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 import java.util.Queue;
+import java.util.Random;
 
 public class test {
 
@@ -31,6 +32,21 @@ public class test {
 //     list.add(2);
 //     list.add(3);
 //     System.out.println(list.get(list.size()-1));
+//    Random r = new Random(1);
+//    for(int i = 0 ; i < 1000; i++)
+//    {
+//      System.out.println(r.nextInt(20000));
+//    }
+//      String s = "a\\\",\"##,###";
+//      char[] str = s.toCharArray();
+//      for(int i = 0 ; i < str.length ; i++)
+//      {
+//        System.out.println(str[i]);
+//        if(str[i] == '"')
+//          System.out.println(i);
+//      }
+    String s = "123";
+    System.out.println(Integer.valueOf(s.substring(2,3)));
     
   }
 }
